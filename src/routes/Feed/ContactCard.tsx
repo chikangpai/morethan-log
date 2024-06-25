@@ -2,9 +2,11 @@ import styled from "@emotion/styled"
 import React from "react"
 import {
   AiFillLinkedin,
+  AiFillMediumSquare,
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineMail,
+  AiOutlineTwitter,
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -16,13 +18,13 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contact
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.github && (
+        {CONFIG.profile.twitter && (
           <a
-            href={`https://github.com/${CONFIG.profile.github}`}
+            href={`https://twitter.com/${CONFIG.profile.twitter}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineGithub className="icon" />
+            <AiOutlineTwitter className="icon" />
             <div className="name">github</div>
           </a>
         )}
@@ -55,6 +57,26 @@ const ContactCard: React.FC = () => {
           >
             <AiFillLinkedin className="icon" />
             <div className="name">linkedin</div>
+          </a>
+        )}
+        {CONFIG.profile.medium && (
+          <a
+            href={`https://medium.com/${CONFIG.profile.medium}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillMediumSquare className="icon" />
+            <div className="name">medium</div>
+          </a>
+        )}
+        {CONFIG.profile.github && (
+          <a
+            href={`https://github.com/${CONFIG.profile.github}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineGithub className="icon" />
+            <div className="name">github</div>
           </a>
         )}
       </StyledWrapper>

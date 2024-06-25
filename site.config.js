@@ -2,13 +2,15 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "brandonpai",
-    image: "/ck.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "PhD @ Harvard",
+    image: "/my_photo_2.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "currently PhD @ Harvard",
     bio: "I am a researhcer in physics and computer science from Taiwan, now at Harvard Chemical Physics.",
     email: "jack.c.pai@gmail.com",
-    linkedin: "chi-kang pai",
+    linkedin: "chi-kang-pai-5231151a3",
     github: "chikangpai",
     instagram: "brandonpiii",
+    medium: "brandonpiii",
+    twitter: "bRandom_1105",
   },
   projects: [
     {
@@ -20,7 +22,7 @@ const CONFIG = {
   blog: {
     title: "brandon pai's blog",
     description: "welcome to brandon pai's blog!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
