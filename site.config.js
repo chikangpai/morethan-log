@@ -2,24 +2,24 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "brandonpai",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "researcher",
-    bio: "I am a researhcer in physics and computer science from Taiwan, now at Harvard.",
+    image: "/ck.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "PhD @ Harvard",
+    bio: "I am a researhcer in physics and computer science from Taiwan, now at Harvard Chemical Physics.",
     email: "jack.c.pai@gmail.com",
-    linkedin: "chikangpai",
+    linkedin: "chi-kang pai",
     github: "chikangpai",
-    instagram: "",
+    instagram: "brandonpiii",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `check out my academic website`,
+      href: "https://chikangpai.github.io/",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "brandon pai's blog",
+    description: "welcome to brandon pai's blog!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
