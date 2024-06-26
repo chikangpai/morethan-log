@@ -13,16 +13,15 @@ const MobileProfileCard: React.FC<Props> = () => {
       <div className="top">💻 Profile</div>
       <div className="mid">
         <div className="wrapper">
-          <Image
+          {/* <Image
             src={CONFIG.profile.image}
             width={60}
             height={50}
             css={{ position: "relative" }}
             alt="profile_image"
-          />
+          /> */}
           <div className="wrapper">
             <div className="top">{CONFIG.profile.name}</div>
-            <div className="mid">{CONFIG.profile.role}</div>
             <div className="btm">{CONFIG.profile.bio}</div>
           </div>
         </div>
@@ -59,7 +58,6 @@ const StyledWrapper = styled.div`
         > .top {
           font-size: 1.25rem;
           line-height: 1.75rem;
-          font-style: italic;
           font-weight: 700;
         }
         > .mid {
