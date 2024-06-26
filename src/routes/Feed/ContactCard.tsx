@@ -25,7 +25,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineTwitter className="icon" />
-            <div className="name">github</div>
+            <div className="name">Twitter</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
