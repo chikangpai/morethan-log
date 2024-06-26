@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Chi-Kang Pai (Brandon)",
     image: "/my_photo_2.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "currently PhD @ Harvard Chemical Physics",
-    bio: "Researhcer in physics and AI, leanring to build interesting software. Made in Taiwan, now in Cambridge, MA.",
+    bio: "Made in Taiwan, now in Cambridge, MA. PhD student in Harvard Chemical Physics.",
     email: "jack.c.pai@gmail.com",
     linkedin: "chi-kang-pai-5231151a3",
     github: "chikangpai",
