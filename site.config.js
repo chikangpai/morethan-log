@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "brandonpai",
+    name: "Chi-Kang Pai (Brandon)",
     image: "/my_photo_2.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "currently PhD @ Harvard",
-    bio: "I am a researhcer in physics and computer science from Taiwan, now at Harvard Chemical Physics.",
+    role: "currently PhD @ Harvard Chemical Physics",
+    bio: "Researhcer in physics and AI, leanring to build interesting software. Made in Taiwan, now in Cambridge, MA.",
     email: "jack.c.pai@gmail.com",
     linkedin: "chi-kang-pai-5231151a3",
     github: "chikangpai",
@@ -22,7 +22,7 @@ const CONFIG = {
   blog: {
     title: "brandon pai's blog",
     description: "welcome to brandon pai's blog!",
-    scheme: "light", // 'light' | 'dark' | 'system'
+    scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
