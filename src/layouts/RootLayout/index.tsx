@@ -1,4 +1,6 @@
+/* eslint-disable import/order */
 import React, { ReactNode, useEffect } from "react"
+import dynamic from "next/dynamic";
 import { ThemeProvider } from "./ThemeProvider"
 import useScheme from "src/hooks/useScheme"
 import Header from "./Header"
@@ -44,6 +46,12 @@ type Props = {
   children: ReactNode
 }
 
+// Dynamically import Analytics with SSR disabled
+const Analytics = dynamic(
+  () => import('@vercel/analytics/next').then(mod => mod.Analytics),
+  { ssr: false }
+);
+
 const RootLayout = ({ children }: Props) => {
   const [scheme] = useScheme()
   useGtagEffect()
@@ -58,6 +66,7 @@ const RootLayout = ({ children }: Props) => {
       {/* {metaConfig.type !== "Paper" && <Header />} */}
       <Header fullWidth={false} />
       <StyledMain>{children}</StyledMain>
+      <Analytics />
     </ThemeProvider>
   )
 }
